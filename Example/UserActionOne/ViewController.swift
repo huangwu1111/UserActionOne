@@ -7,11 +7,16 @@
 //
 
 import UIKit
-
+import UserActionTest
+//import UserActionOne
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        HudTest().hud(str: "yyyy")
+        
+//        Student().dance()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

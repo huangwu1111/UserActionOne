@@ -1,0 +1,24 @@
+PODS:
+  - ProgressHUD (13.7.2)
+  - UserActionOne (0.1.0):
+    - ProgressHUD
+
+DEPENDENCIES:
+  - ProgressHUD
+  - UserActionOne (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - ProgressHUD
+
+EXTERNAL SOURCES:
+  UserActionOne:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ProgressHUD: 093d24ca970f191744017bee2649e37d0cd1c5b9
+  UserActionOne: 8fe5e69ab0fd05f0d75110455be86fe55d43a363
+
+PODFILE CHECKSUM: 7c51a07fcf265614e9d0d8b0bf8ef549d4f14762
+
+COCOAPODS: 1.12.1

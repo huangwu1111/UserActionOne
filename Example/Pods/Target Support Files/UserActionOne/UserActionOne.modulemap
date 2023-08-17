@@ -1,0 +1,6 @@
+framework module UserActionOne {
+  umbrella header "UserActionOne-umbrella.h"
+
+  export *
+  module * { export * }
+}
